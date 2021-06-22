@@ -2,7 +2,9 @@
 ## Autor 
 Ernesto Camacho Arroyave 
 
-Loc: 
+Loc: 272 lines in 12 hours 22.6Loc
+
+Date 21/06/21
 
 ## Descripcion de la idea 
 El proyecto cuenta como una implementacion del juego de picas y famas, deplegado en heroku, y usando el famework de spring boot, el juego es uno basico con el numero a adividar de cuatro cifras. Inicia con una pagina simple de index que te lleva al juego con una pegina poco mas sofisticada,
