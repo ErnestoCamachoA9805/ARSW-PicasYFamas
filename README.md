@@ -25,6 +25,6 @@ si se cumple todo solo es necesario ejecutar el comando de maven, desde la carpe
 Y para correr el proyecto, el comando:
 - mvn exec:java -D"exec.mainClass"="edu.escuelaing.PicasFamas.PicasyFamasApp"
 ## Test
-
+![]()
 ## Javadoc
 El java doc se encunetra en la carpeta de recursos siguiendo el link de 

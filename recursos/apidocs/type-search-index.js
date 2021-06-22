@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"edu.escuelaing.PicasFamas.Controllers","l":"GameController"},{"p":"edu.escuelaing.PicasFamas","l":"PicasyFamasApp"},{"p":"edu.escuelaing.PicasFamas.Game","l":"PicasYFamasGame"}];updateSearchResults();
