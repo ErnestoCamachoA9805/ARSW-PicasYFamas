@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Game</title>
+    </head>
+    <body style="text-align:center;">
+        <h1>Picas y Famas Game</h1>
+        <p>Ernesto Camacho Arroyave</p>
+        <p>Can you guess my number?</p>
+        <p>It's a 4 digit number</p>
+        <br>
+        <form th:object="${game}" th:action="@{/MyGame}" method="post">
+            <p th:text="'Picas: '+${picas}"></p>
+            <p th:text="'Famas: '+${famas}"></p>
+            <input class="input" th:name="attempt" id="attempt" type="text" th:field="*{tryNumber}">
+            <input class="buttons" type="submit" value="Submit">
+        </form>
+    </body>
+</html>
