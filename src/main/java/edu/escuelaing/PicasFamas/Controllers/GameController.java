@@ -31,12 +31,13 @@ public class GameController {
         if (!gameModel.isWinState()){
             gameModel.checkNumber();
         }
+        /**
         System.out.println("Random number : " + gameModel.getNumber());
         System.out.println("picas: " + gameModel.getPicas());
         System.out.println("famas: " + gameModel.getFamas());
         System.out.println("winstate: " + gameModel.isWinState());
         System.out.println("trynumber: " + gameModel.getTryNumber());
-        
+        **/
         model.addAttribute("famas",gameModel.getFamas());
         model.addAttribute("picas",gameModel.getPicas());
         model.addAttribute("game", gameModel);
